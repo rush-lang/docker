@@ -2,7 +2,7 @@ FROM rushlang/clang-x86-64-linux-gnu
 LABEL maintainer="Reegan Layzell <reegan.layzell@rush-lang.org>"
 LABEL description="Builder image for building LLVM with Clang and libc++"
 
-ARG llvmver_major=10
+ARG llvmver_major=13
 ARG llvmver_minor=0
 ARG llvmver_patch=0
 
